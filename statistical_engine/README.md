@@ -16,8 +16,7 @@ This project is a high-performance, pure-Python statistical engine designed to a
 ---
 
 ## Mathematical Logic
-
-### 1. Variance Calculation ($s^2$ vs $\sigma^2$)
+## 1. Variance Calculation ($s^2$ vs $\sigma^2$)
 We implement logic for both **Population Variance** ($\sigma^2$) and **Sample Variance** ($s^2$):
 - **Population Variance**:  $\sigma^2 = \frac{\sum (x - \mu)^2}{N}$  (Used when analyzing the entire group).
 - **Sample Variance (Bessel's Correction)**: $s^2 = \frac{\sum (x - \bar{x})^2}{n - 1}$
@@ -71,3 +70,5 @@ The simulation demonstrates that as the number of "trials" (days) increases, the
 
 **Why is it dangerous to predict a budget based on a 30-day "trial"?**
 In small samples, local variance (noise) is extreme. A startup seeing only 0 crashes in 30 days might think their servers are "perfect" and under-budget for maintenance. Conversely, a 10% crash rate in a single month might cause a panic. The LLN proves that you need large datasets to capture the true underlying risk; short-term "luck" is a poor metric for long-term fiscal planning.
+##here is the vedio for the walkthrought
+https://github.com/user-attachments/assets/32f1e306-6f9f-450d-b021-29ee91b2ef4a
